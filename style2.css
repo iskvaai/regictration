@@ -15,10 +15,10 @@ margin: 24px 0 16px 80px;
 .main{
 display: flex;
 }
-.box1{
+.element1{
     margin: 16px 45px 8px 80px;
 }
-.box_1{
+.element_1{
     padding: 16px 8px  16px  16px;
     margin: 0 8px 16px 80px;
     width: 200px;
@@ -28,13 +28,13 @@ display: flex;
     box-sizing: border-box;
     border-radius: 8px;
 }
-.box2{
+.element2{
 
     margin: 16px 27px 8px 0;
     width: 176px;
     height: 16px;
 }
-.box_2{
+.element_2{
     padding: 16px 8px  16px  16px;
      margin: 0px 8px 16px 0px;
     width: 200px;
@@ -44,11 +44,10 @@ display: flex;
     box-sizing: border-box;
     border-radius: 8px;
 }
-.box3{
-
+.element3{
     margin: 16px 0 8px 0px;
 }
-.box_3{
+.element_3{
     width: 200px;
     height: 48px;
     opacity: 0.5;
