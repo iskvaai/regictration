@@ -1,0 +1,16 @@
+.container{
+    width: 550px;
+    height: 100vh;
+
+}
+.content{
+display: flex;
+    justify-content: space-between;
+}
+.wrapper{
+
+}
+.main{
+display: flex;
+
+}
