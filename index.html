@@ -12,21 +12,63 @@
 <div class="container">
     <h1>Анкета  для корпоративных клиентов</h1>
     <h2>Личные данные</h2>
-    <div class="block1">
-        <p>Фамилия</p>
-        <input type="text" value="Иванов">
-        <p>Имя</p>
-        <input type="text" value="Иван">
-        <p>Отчество</p>
-        <input type="text" value="Иванович">
-       <p> Дата рождения</p>
-        <input type="date" placeholder="12.12.2021" value="">
-        <p>Фактическое место проживания</p>
-        <input type="text" value="Бишкек. Чорморова 23/3 кв.43">
-        <p>Контактный номер</p>
-        <input type="number" placeholder="+996 555 000 000" value="">
-        <p>Электронный адрес</p>
-        <input type="email" value="ivanov@mail.ru">
+    <div class="block block-text">
+        <p class="block-text1">Фамилия</p>
+        <p class="block-text2">Имя</p>
+        <p class="block-text3">Отчество</p>
+    </div>
+        <div class="block1 ">
+            <input class=" box box1" type="text" value="Иван">
+            <input class=" box box2" type="text" value="Иванов">
+            <input class=" box box3" type="text" value="Иванович">
+        </div>
+    <div class="block block-text">
+        <p class="block-text4"> Дата рождения</p>
+        <p class="block-text5">Фактическое место проживания</p>
+    </div>
+       <div class="block2">
+           <input class=" box box4" type="date" placeholder="12.12.2021" value="12.12.2021" >
+           <input class=" box box5" type="text" value="Бишкек. Чорморова 23/3 кв.43">
+       </div>
+
+    <div class="block block-text">
+        <p class="block-text6">Контактный номер</p>
+        <p class="block-text7">Электронный адрес</p>
+    </div>
+    <div class="block3">
+        <input class="box box6" type="number" placeholder="+996 555 000 000" value="">
+        <input class="box box7" type="email" value="ivanov@mail.ru">
+    </div>
+<h1>Сведения о кредите</h1>
+    <h2>Покупка телефона ( наименование товара)</h2>
+    <div class="block4">
+        <input class="box box8" type="text" value="iPhone XS 256Gb" >
+    </div>
+    <div class="block block-text">
+        <p class="block-text8">Стоимость товара</p>
+        <p class="block-text9">Количество товара</p>
+        <p class="block-text10">Итого сумма кредита</p>
+    </div>
+    <div class="block5">
+        <input class="box box9" type="text" value="65 000 сом" >
+        <input class="box box10" type="text" value="1 шт" >
+        <input class="box box11" type="text" value="65 000 сом" >
+    </div>
+    <div class="block block-text">
+        <p class="block-text11">Вид кредита </p>
+        <p class="block-text12">КСрок кредита ( мес)</p>
+        <p class="block-text13">Точка получения товара</p>
+    </div>
+    <div class="block6">
+        <select class="box" id="box" >
+        <option value="">кредит/ рассрочка</option>
+    </select>
+        <select class="box" id="box" >
+            <option value="">мин 3 месяца</option>
+        </select>
+        <select class="box" id="box" >
+            <option value="">Выберите адрес</option>
+        </select>
     </div>
 </div>
 </body>
