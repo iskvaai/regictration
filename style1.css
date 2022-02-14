@@ -1,0 +1,140 @@
+body{
+    margin-left: 80px;
+}
+h1{
+    padding-top: 44px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+}
+h2{
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+
+}
+.container{
+    width: 650px;
+    margin-top: 0;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+}
+.block-text{
+    font-size: 14px;
+}
+.block-text1{
+    width: 168px;
+    height: 16px;
+    padding-left: 3px;
+}
+.block-text2{
+    width: 168px;
+    height: 16px;
+    padding-left: 28px;
+}
+.block-text3{
+    width: 168px;
+    height: 16px;
+    padding-left: 24px;
+}
+.block-text4{
+    width: 103px;
+    height: 16px;
+    padding-right: 88px;
+}
+.block-text5{
+    width: 280px;
+    height: 16px;
+    margin-left: 20px;
+}
+.block-text6{
+    width: 188px;
+    height: 16px;
+    padding-right: 32px;
+}
+.block-text7{
+    width: 176px;
+    height: 16px;
+}
+.block1 {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    gap: 8px;
+}
+.box{
+    width: 200px;
+    height: 48px;
+    border-radius: 8px;
+    opacity: 0.5;
+    border: 0.5px solid #AEAEAE;
+    box-sizing: border-box;
+    padding-left: 16px;
+}
+.box5{
+    width: 408px;
+
+}
+.box6, .box7, box4{
+    width: 208px;
+    height: 48px;
+
+}
+.block2{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.block3{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+input{
+    margin-top: -8px;
+}
+.box8{
+    width: 625px;
+}
+.block-text8{
+    width: 176px;
+    height: 16px;
+}
+.block-text9{
+    width: 176px;
+    height: 16px;
+    padding-left: 32px;
+}
+.block-text10{
+    width: 160px;
+    height: 16px;
+    padding-left: 32px;
+}
+.block-text11{
+    width: 136px;
+    height: 16px;
+}
+.block-text12{
+    width: 184px;
+    height: 16px;
+    padding-left: 72px;
+}
+.block-text13{
+    width: 184px;
+    height: 16px;
+    padding-left: 24px;
+}
+button{
+    width: 384px;
+    height: 48px;
+    background-color: rgba(35, 37, 41, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin: 40px 140px 40px 140px;
+    border: 0;
+
+}
