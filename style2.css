@@ -3,7 +3,7 @@
     height: 100vh;
 
 }
-.content{
+.main_wrapper{
 display: flex;
     justify-content: space-between;
 }
