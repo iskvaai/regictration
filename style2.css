@@ -1,10 +1,10 @@
-.container{
+.main_wrapper{
     width: 650px;
     height: 100vh;
 
 }
 .main_wrapper{
-display: flex;
+    display: flex;
     justify-content: space-between;
 }
 .wrapper{
