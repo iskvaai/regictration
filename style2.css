@@ -52,3 +52,33 @@ display: flex;
     box-sizing: border-box;
     border-radius: 8px;
 }
+.content_2{
+    display: flex;
+}
+.name_bank{
+    margin: 0 44px 8px 80px;
+}
+.choice_bank{
+    background-color: white;
+    width: 200px;
+    height: 48px;
+    opacity: 0.5;
+    border: 0.5px solid #AEAEAE;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 0 8px 24px 80px;
+}
+.place_live{
+    margin: 0 0 8px 27px;
+}
+.adress{
+    width: 308px;
+    height: 48px;
+    opacity: 0.5;
+    border: 0.5px solid #AEAEAE;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.data_income{
+    margin: 24px 0 16px 80px;
+}
