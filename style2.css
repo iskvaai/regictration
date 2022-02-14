@@ -16,9 +16,10 @@ margin: 24px 0 16px 80px;
 display: flex;
 }
 .box1{
-    margin: 16px 32px 8px 80px;
+    margin: 16px 45px 8px 80px;
 }
 .box_1{
+    padding: 16px 8px  16px  16px;
     margin: 0 8px 16px 80px;
     width: 200px;
     height: 48px;
@@ -28,12 +29,14 @@ display: flex;
     border-radius: 8px;
 }
 .box2{
-    margin: 16px 16px 8px 0;
+
+    margin: 16px 27px 8px 0;
     width: 176px;
     height: 16px;
 }
 .box_2{
-  margin: 0px 8px 16px 0px;
+    padding: 16px 8px  16px  16px;
+     margin: 0px 8px 16px 0px;
     width: 200px;
     height: 48px;
     opacity: 0.5;
@@ -42,6 +45,7 @@ display: flex;
     border-radius: 8px;
 }
 .box3{
+
     margin: 16px 0 8px 0px;
 }
 .box_3{
@@ -51,6 +55,7 @@ display: flex;
     border: 0.5px solid #AEAEAE;
     box-sizing: border-box;
     border-radius: 8px;
+    padding: 16px 8px  16px  16px;
 }
 .content_2{
     display: flex;
@@ -67,11 +72,13 @@ display: flex;
     box-sizing: border-box;
     border-radius: 8px;
     margin: 0 8px 24px 80px;
+    padding: 16px 0px 16px 16px;
 }
 .place_live{
     margin: 0 0 8px 27px;
 }
 .adress{
+    padding: 16px 0px 16px  16px;
     width: 308px;
     height: 48px;
     opacity: 0.5;
@@ -81,4 +88,62 @@ display: flex;
 }
 .data_income{
     margin: 24px 0 16px 80px;
+}
+.content_3{
+    display: flex;
+}
+.organization{
+    width: 200px;
+    height: 16px;
+    margin: 16px 10px 8px 80px;
+}
+.megacom{
+    padding: 16px 0 16px 16px;
+    margin: 0 8px 24px 80px;
+    width: 200px;
+    height: 48px;
+    opacity: 0.5;
+    border: 0.5px solid #AEAEAE;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.position{
+
+}
+.accountant{
+    padding: 16px 0 16px 16px;
+    margin: 0 0 24px 0;
+    width: 308px;
+    height: 48px;
+    opacity: 0.5;
+    border: 0.5px solid #AEAEAE;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.salary{
+    display: flex;
+}
+.salary_month{
+    margin: 0 99px 8px 80px;
+}
+.salary_3month{
+    margin: 0 0 8px 0;
+}
+.noth1{
+    margin: 0 8px 24px 80px;
+    width: 254px;
+    height: 48px;
+    opacity: 0.5;
+    border: 0.5px solid #AEAEAE;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.noth2{
+    width: 274px;
+    height: 48px;
+    margin: 0 0 24px 0;
+    opacity: 0.5;
+    border: 0.5px solid #AEAEAE;
+    box-sizing: border-box;
+    border-radius: 8px;
 }
